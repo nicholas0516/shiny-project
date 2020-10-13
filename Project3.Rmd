@@ -1,0 +1,44 @@
+---
+title: 'Course Project: Shiny Application and Reproducible Pitch'
+author: "Nicolas Castro"
+date: "13/10/2020"
+output: ioslides_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+library(ggplot2)
+```
+
+## Introduction
+
+This is course projection for Shiny Application and Reproducible Pitch.
+
+## Data
+
+Data used in this application is the diamonds data set from `ggplot2` package.
+
+```{r}
+head(diamonds)
+```
+
+
+## Prediction of Diamond Price
+
+This application predicts the price of diamond based on given properties.
+
+- Carat
+- Color
+- Cut
+- Clarity
+
+The price is modelled as a linear function of carat under given properties of color, cut and clarity.
+
+## Applicaiton Notes
+
+Click the following link for the [application](https://nicolas0516.shinyapps.io/final_project/).
+
+
+Click the following link for the project files on [Github](https://github.com/nicholas0516/shiny-project).
+
+
